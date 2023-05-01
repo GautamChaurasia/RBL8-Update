@@ -18,7 +18,7 @@ import "./styles.css"
 import Lottie  from "lottie-react"
 import animationData from "../animations/4600-typing-status.json"
 import {Filter} from 'profanity-check'
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://rbl-chat-server.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const defaultFilter = new Filter()
